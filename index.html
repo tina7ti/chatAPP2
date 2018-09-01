@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chatAPP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="bloc0">
+    online users
+</div>
+<div class="bloc1">
+    <div class="users">
+       <!-- <div class="usericon">
+            <span class="fas fa-user fa-3x"></span>
+        </div>
+        <div class="message">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam aperiam corporis debitis,
+                deserunt eius error fugiat hic id magni maxime nam nisi possimus quaerat reiciendis rem rerum
+                sapiente sunt.</p>
+        </div> -->
+    </div>
+    <div class="formulaire">
+        <form action="" method="post" class="formi" id="formi2">
+            <div class="form-group">
+                <input type="text" name="message" id="message" placeholder="Message" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="submit" id="envoyer" name="envoyer" value="Envoyer" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div class="backblack">
+    <div class="bloc2">
+        <form action="" method="post" class="formi" id="formi1">
+            <div class="form-group">
+                <input type="text" name="username" id="username" placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="text" name="mail" id="mail" placeholder="mail" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="submit" name="envoyer" value="Envoyer" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/fontawesome-all.js"></script>
+<script src="http://localhost:1337/socket.io/socket.io.js"></script>
+<script src="js/client.js"></script>
+
+</body>
+</html>
