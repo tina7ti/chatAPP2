@@ -1,0 +1,4 @@
+static/* linguist-vendored
+docs/* linguist-documentation
+*.html linguist-language=javascript
+*.javascript linguist-language=html
